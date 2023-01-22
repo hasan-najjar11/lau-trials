@@ -1,0 +1,8 @@
+numb = int(input())
+remainder = 0
+bina = ""
+while numb > 0:
+    remainder = (numb%2)
+    bina = str(remainder) + bina
+    numb = numb//2
+print(bina)
